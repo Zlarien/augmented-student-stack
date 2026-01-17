@@ -62,6 +62,6 @@ Tools are useless without methodology. Here is how I work:
 ### 👤 Author
 **Mohamed-Zayim** (aka Zlarex)
 *CS Student @ Paris-Saclay | Augmented Builder*
-[LinkedIn](https://www.linkedin.com/in/mo-zayim/) | [PORTFOLIO]
+[LinkedIn](https://www.linkedin.com/in/mo-zayim-aha/) | [PORTFOLIO]
 
 *Star this repo if you found it useful! ⭐*
