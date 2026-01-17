@@ -6,57 +6,62 @@
 ![Stars](https://img.shields.io/github/stars/Zlarien/augmented-student-stack?style=social)
 
 ## 🎯 The Mission
-As a CS student at **Université Paris-Saclay**, I don't just write code; I orchestrate AI agents. This repository documents my personal "Vibe Coding" stack—the exact tools I use to turn ideas into deployed apps in hours, not weeks.
+As a CS student at **Université Paris-Saclay**, I don't just write code; I orchestrate AI agents. This repository documents my personal "Augmented" stack—the exact tools I use to turn ideas into deployed apps in hours, not weeks.
 
 **Status:** `Production Ready` 🟢
 
 ---
 
-## 🧠 1. The Brains (LLMs)
-*The engines driving the logic.*
+## 🧠 1. The Brains (Model Layer)
+*The engines driving the logic. I choose the right brain for the right task.*
 
 | Tool | Role | Why "Zlarex" uses it |
 | :--- | :--- | :--- |
-| **Claude 3.5 Sonnet** | Architect | Unbeatable for complex reasoning and system architecture. Less hallucinations than GPT-4o for code structure. |
-| **GPT-4o** | Generalist | Great for quick scripts, brainstorming, and multimodal tasks (images/diagrams). |
-| **Perplexity** | Researcher | My replacement for Google. Perfect for finding documentation and fixing obscure error logs instantly. |
+| **Gemini (Advanced)** | **The Architect** | My go-to for complex Context Engineering, coding logic, and academic work. It handles large context windows better than anything else for project-wide reasoning. |
+| **ChatGPT** | **The Assistant** | The daily driver for quick questions, life organization, and "banal" queries. Fast and reliable. |
+| **GitHub Copilot** | **The Wingman** | **My #1 Tool.** I use it inside VS Code to switch between models (o1, Sonnet 3.5) instantly. Its "Next Edit Suggestion" (Agentic AI) takes initiatives in the background before I even ask. |
 
-## 🛠️ 2. The Flow (IDE & Editor)
+> *Note on Perplexity:* I used to use it for research, but shifted workflow due to limited access to top-tier reasoning models (Sonnet) in the pro version.
+
+---
+
+## 🛠️ 2. The Flow (IDE & Execution)
 *Where the magic happens.*
 
-### ⚡ Cursor (The Editor)
-*Forget VS Code.* Cursor is a fork of VS Code with AI baked into the core.
-- **Killer Feature:** `Cmd+K` to generate code, `Cmd+L` to chat with your codebase.
-- **My Config:** I use "Composer Mode" to edit multiple files simultaneously.
+### ⚡ VS Code + GitHub Copilot (The Core)
+My customized environment. I don't just use autocomplete; I use Copilot as an active pair programmer.
+- **Workflow:** I leverage Copilot's ability to "predict" my next move across multiple files.
+- **Why not Cursor?** While Cursor is an excellent fork (highly recommended for beginners), I prefer the native integration of Copilot within VS Code for a cleaner, more modular experience.
 
-### 🤖 GitHub Copilot (The Wingman)
-- **Role:** Autocomplete & Boilerplate killer.
-- **Usage:** It handles the boring stuff (imports, basic functions) so I can focus on logic.
+### 🎨 Lovable (The UI Wizard)
+- **Role:** Idea to Interface.
+- **Usage:** I use Lovable to scaffold entire frontend infrastructures (React + Tailwind) from a single prompt, allowing me to focus on the backend logic.
 
-### 🎨 Lovable (The Front-End Wizard)
-- **Role:** Idea to UI in seconds.
-- **Usage:** I use Lovable to generate the entire frontend infrastructure (React + Tailwind) from a simple prompt, then export to GitHub to refine the logic.
+### 💻 Claude Code
+- **Role:** The Terminal Agent.
+- **Usage:** Great for CLI-based refactoring and quick script generation directly in the terminal.
 
 ---
 
 ## 🔐 3. Security & Ops (The "Zlarex" Touch)
 *Building robust systems.*
 
-* **Applied Cryptography:** Working with `ChaCha20` for secure data storage.
-* **Voice AI:** Experimenting with **Vapi** and **Pipecat** for sub-500ms latency voice agents.
+* **Applied Cryptography:** Implementing `ChaCha20` for secure data storage (Code over API).
+* **Identity:** Keeping a clear distinction between "Zlarex" (The Builder) and my academic persona.
 
 ---
 
-## 🚀 Getting Started
-1. **Don't just copy-paste.** Understand the code the AI gives you.
-2. **Iterate.** AI is a colleague, not a slave. Challenge its output.
-3. **Ship.** The goal is to deploy, not just to code.
+## 🧬 The "Augmented" Philosophy
+Tools are useless without methodology. Here is how I work:
+1. **Context is King:** I use Gemini to build massive context prompts before writing a single line of code.
+2. **AI Initiative:** I let GitHub Copilot suggest the path, but **I** drive the car. I review every line.
+3. **Iterative Shipping:** Build the UI with Lovable, refine the logic with Copilot, deploy, repeat.
 
 ---
 
 ### 👤 Author
 **Mohamed-Zayim** (aka Zlarex)
 *CS Student @ Paris-Saclay | Augmented Builder*
-[LinkedIn](https://www.linkedin.com/in/mo-zayim/) | [Portfolio]([TON_LIEN_LOVABLE_ICI])
+[LinkedIn](https://www.linkedin.com/in/mo-zayim/) | [PORTFOLIO]
 
 *Star this repo if you found it useful! ⭐*
