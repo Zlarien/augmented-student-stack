@@ -1,4 +1,4 @@
-aa# ⚡ The Augmented Student Stack
+# ⚡ The Augmented Student Stack
 
 > *Code faster. Learn deeper. Build shipping products while others are still setting up their environment.*
 
